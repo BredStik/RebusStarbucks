@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusStarbucks.Client", "RebusStarbucks.Client\RebusStarbucks.Client.csproj", "{D3329AC8-BB62-46D9-92BA-9150BF0B14B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusStarbucks.Cashier", "RebusStarbucks.Cashier\RebusStarbucks.Cashier.csproj", "{DC76B608-64AF-4C3F-9D9A-1D91BB43A9BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusStarbucks.Barista", "RebusStarbucks.Barista\RebusStarbucks.Barista.csproj", "{098F6FE1-C4E6-4D68-B7CB-5F37497DF957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusStarbucks.Messages", "RebusStarbucks.Messages\RebusStarbucks.Messages.csproj", "{7201CBE0-6B77-4BFC-8193-2DA06090DEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.SagaStorage", "Rebus.SagaStorage\Rebus.SagaStorage.csproj", "{81C6EB2D-3441-4632-8772-687F8987152D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		LocalDev|Any CPU = LocalDev|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3329AC8-BB62-46D9-92BA-9150BF0B14B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3329AC8-BB62-46D9-92BA-9150BF0B14B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3329AC8-BB62-46D9-92BA-9150BF0B14B6}.LocalDev|Any CPU.ActiveCfg = LocalDev|Any CPU
+		{D3329AC8-BB62-46D9-92BA-9150BF0B14B6}.LocalDev|Any CPU.Build.0 = LocalDev|Any CPU
+		{D3329AC8-BB62-46D9-92BA-9150BF0B14B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3329AC8-BB62-46D9-92BA-9150BF0B14B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC76B608-64AF-4C3F-9D9A-1D91BB43A9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC76B608-64AF-4C3F-9D9A-1D91BB43A9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC76B608-64AF-4C3F-9D9A-1D91BB43A9BE}.LocalDev|Any CPU.ActiveCfg = LocalDev|Any CPU
+		{DC76B608-64AF-4C3F-9D9A-1D91BB43A9BE}.LocalDev|Any CPU.Build.0 = LocalDev|Any CPU
+		{DC76B608-64AF-4C3F-9D9A-1D91BB43A9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC76B608-64AF-4C3F-9D9A-1D91BB43A9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098F6FE1-C4E6-4D68-B7CB-5F37497DF957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098F6FE1-C4E6-4D68-B7CB-5F37497DF957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098F6FE1-C4E6-4D68-B7CB-5F37497DF957}.LocalDev|Any CPU.ActiveCfg = LocalDev|Any CPU
+		{098F6FE1-C4E6-4D68-B7CB-5F37497DF957}.LocalDev|Any CPU.Build.0 = LocalDev|Any CPU
+		{098F6FE1-C4E6-4D68-B7CB-5F37497DF957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098F6FE1-C4E6-4D68-B7CB-5F37497DF957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7201CBE0-6B77-4BFC-8193-2DA06090DEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7201CBE0-6B77-4BFC-8193-2DA06090DEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7201CBE0-6B77-4BFC-8193-2DA06090DEF8}.LocalDev|Any CPU.ActiveCfg = LocalDev|Any CPU
+		{7201CBE0-6B77-4BFC-8193-2DA06090DEF8}.LocalDev|Any CPU.Build.0 = LocalDev|Any CPU
+		{7201CBE0-6B77-4BFC-8193-2DA06090DEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7201CBE0-6B77-4BFC-8193-2DA06090DEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C6EB2D-3441-4632-8772-687F8987152D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C6EB2D-3441-4632-8772-687F8987152D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C6EB2D-3441-4632-8772-687F8987152D}.LocalDev|Any CPU.ActiveCfg = Release|Any CPU
+		{81C6EB2D-3441-4632-8772-687F8987152D}.LocalDev|Any CPU.Build.0 = Release|Any CPU
+		{81C6EB2D-3441-4632-8772-687F8987152D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C6EB2D-3441-4632-8772-687F8987152D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
