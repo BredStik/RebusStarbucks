@@ -1,22 +1,14 @@
 ﻿using Rebus.Activation;
-using Rebus.Bus;
 using Rebus.Config;
 using Rebus.Encryption;
-using Rebus.Handlers;
-using Rebus.Handlers.Reordering;
 using Rebus.Persistence.FileSystem;
-using Rebus.Pipeline;
 using Rebus.Routing.TypeBased;
 using Rebus.SagaStorage;
 using Rebus.Transport.FileSystem;
 using Rebus.Transport.Msmq;
 using RebusStarbucks.Messages;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RebusStarbucks.Barista
 {
@@ -37,7 +29,7 @@ namespace RebusStarbucks.Barista
                                 r.TypeBased()
                                 .Map<NewOrderMessage>("rebusStarbucks.client");
                             })
-                            .Options(op => { op.SetMaxParallelism(10).SetNumberOfWorkers(10).EnableEncryption("VW6DcqJioLHnV1b9oPnDFCYAGB7VxJcY");})
+                            .Options(op => { op.SetMaxParallelism(10).SetNumberOfWorkers(1).EnableEncryption("VW6DcqJioLHnV1b9oPnDFCYAGB7VxJcY");})
                             .Sagas(x => x.StoreInJsonFile(AppDomain.CurrentDomain.BaseDirectory))
                             .Subscriptions(s => s.UseJsonFile(JsonFilePath))
                             .Start();
